@@ -46,11 +46,12 @@ HTML/JavaScript/XML - use standard web technologies to build the visualization. 
 - [TimeSearcher](http://www.cs.umd.edu/hcil/timesearcher/) - interface for time-series data from U Maryland
 - [TreeMap](http://www.cs.umd.edu/hcil/treemap/) - tree-mapping software from U Maryland
 
-#Network Analysis Tools
+# Network Analysis Tools
 
-Gephi - an interactive graph analysis application
-NodeXL - a graph analysis plug-in for Excel
-GUESS - a combined visual/scripting interface for graph analysis
-Pajek - another popular network analysis tool
-NetworkX - graph analysis library for Python
-SNAP - graph analysis library for C++
+- [Gephi](http://gephi.org/) - an interactive graph analysis application
+- [Sigma js](http://sigmajs.org/) - is a JavaScript library dedicated to graph drawing
+- [NodeXL](http://www.codeplex.com/NodeXL) - a graph analysis plug-in for Excel
+- [GUESS](http://graphexploration.cond.org/) - a combined visual/scripting interface for graph analysis
+- [Pajek](http://pajek.imfm.si/doku.php) - another popular network analysis tool
+- [NetworkX](http://networkx.lanl.gov/) - graph analysis library for Python
+- [SNAP](http://snap.stanford.edu/) - graph analysis library for C++
