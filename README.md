@@ -34,16 +34,17 @@ HTML/JavaScript/XML - use standard web technologies to build the visualization. 
 
 # Visualization Tools
 
-Tableau for Students - get a free Tableau license as a student
-Tableau Public - a free version of Tableau which publishes to the web
-Voyager - a web-based data exploration tool from IDL.
-GGplot2 - a graphics language for R
-Lyra - an interactive visualization design environment
-GGobi - visualizations for multivariate data
-Improvise - a visualization tool supporting a variety of visualization types
-ParVis - software for parallel coordinates
-TimeSearcher - interface for time-series data from U Maryland
-TreeMap - tree-mapping software from U Maryland
+- [Tableau for Students](http://www.tableausoftware.com/student/) - get a free Tableau license as a student
+- [Tableau Public](http://www.tableausoftware.com/public/) - a free version of Tableau which publishes to the web
+- [PowerBI Desktop](https://powerbi.microsoft.com/en-us/desktop/) - a free version of Power BI client application to develope visualization 
+- [Voyager](http://uwdata.github.io/voyager) - a web-based data exploration tool from IDL.
+- [GGplot2](http://had.co.nz/ggplot2/) - a graphics language for R
+- [Lyra](http://idl.cs.washington.edu/projects/lyra/) - an interactive visualization design environment
+- [GGobi](http://www.ggobi.org/) - visualizations for multivariate data
+- [Improvise](http://www.cs.ou.edu/~weaver/improvise/) - a visualization tool supporting a variety of visualization types
+- [ParVis](http://home.subnet.at/flo/mv/parvis/) - software for parallel coordinates
+- [TimeSearcher](http://www.cs.umd.edu/hcil/timesearcher/) - interface for time-series data from U Maryland
+- [TreeMap](http://www.cs.umd.edu/hcil/treemap/) - tree-mapping software from U Maryland
 
 #Network Analysis Tools
 
