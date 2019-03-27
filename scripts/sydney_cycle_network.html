@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cycle_network</title>
+</head>
+<body>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+<style>
+#network-map {
+	width:1020px;
+	height:840px;
+}
+</style>
+</head>
+
+<body>
+	<div id="network-map"></div>
+<script>
+window.onload = function () {
+    var basemap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	});
+
+    $.getJSON("Cycle_network.geojson", function(data) {
+
+    var geojson = L.geoJson(data, {
+      onEachFeature: function (feature, layer) {
+        layer.bindPopup(feature.properties.RouteType+ '<p><b> Line: ' + feature.properties.Shape__Length);
+      }
+    });
+
+    var map = L.map("network-map")
+    .fitBounds(geojson.getBounds());
+    //.setView([151.198,-33.874], 9);
+
+    basemap.addTo(map);
+    geojson.addTo(map);
+  });
+
+};
+</script>
+</body>
+</html> 
